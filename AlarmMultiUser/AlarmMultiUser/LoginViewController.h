@@ -11,5 +11,6 @@
 @interface LoginViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *tf_username;
 @property (weak, nonatomic) IBOutlet UITextField *tf_password;
+- (IBAction)authenticate;
 
 @end

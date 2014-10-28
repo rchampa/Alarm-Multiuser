@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3827160-1DAF-4045-9B3B-4E1929CE9019</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AlarmMultiUser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>73F07B0EC1947B388E83BCA41017003E7EA4F01F</key>
+		<string>github.com:rchampa/Alarm-Multiuser.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AlarmMultiUser/AlarmMultiUser.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>73F07B0EC1947B388E83BCA41017003E7EA4F01F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:rchampa/Alarm-Multiuser.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>73F07B0EC1947B388E83BCA41017003E7EA4F01F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>73F07B0EC1947B388E83BCA41017003E7EA4F01F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alarm-Multiuser</string>
+		</dict>
+	</array>
+</dict>
+</plist>

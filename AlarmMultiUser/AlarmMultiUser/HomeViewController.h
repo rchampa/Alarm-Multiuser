@@ -8,16 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController<UIAlertViewDelegate>
+@interface HomeViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *hour1Label;
 @property (weak, nonatomic) IBOutlet UILabel *hour2Label;
 @property (weak, nonatomic) IBOutlet UILabel *minute1Label;
 @property (weak, nonatomic) IBOutlet UILabel *minute2Label;
+
+
 
 @property (weak, nonatomic) IBOutlet UILabel *colonLabel;
 @property (weak, nonatomic) IBOutlet UILabel *monthYearLabel;
 
 @property(nonatomic) BOOL alarmGoingOff;
 @property(nonatomic) UILocalNotification *local_notification;
+- (IBAction)logout;
+- (IBAction)handleSwipeLeft:(UISwipeGestureRecognizer *)sender;
 
 @end

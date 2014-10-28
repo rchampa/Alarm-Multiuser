@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C24781A19FDB69B00957796 /* clock-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C24781919FDB69B00957796 /* clock-7.png */; };
+		8C24781D19FDC04700957796 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C24781C19FDC04700957796 /* RootTabBarController.m */; };
+		8C3C5C6B19FEB8D90026AB73 /* AddEditAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C5C6A19FEB8D90026AB73 /* AddEditAlarmViewController.m */; };
+		8C3C5C6E19FF94900026AB73 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C5C6D19FF94900026AB73 /* SettingsViewController.m */; };
+		8C3C5C7019FFAC690026AB73 /* UserSettingsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C5C6F19FFAC690026AB73 /* UserSettingsObject.m */; };
 		8C41378819FCFBB6002C1702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378719FCFBB6002C1702 /* main.m */; };
 		8C41378B19FCFBB6002C1702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378A19FCFBB6002C1702 /* AppDelegate.m */; };
 		8C41378E19FCFBB6002C1702 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378D19FCFBB6002C1702 /* ViewController.m */; };
@@ -39,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C24781919FDB69B00957796 /* clock-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-7.png"; sourceTree = "<group>"; };
+		8C24781B19FDC04700957796 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		8C24781C19FDC04700957796 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		8C3C5C6919FEB8D90026AB73 /* AddEditAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditAlarmViewController.h; sourceTree = "<group>"; };
+		8C3C5C6A19FEB8D90026AB73 /* AddEditAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditAlarmViewController.m; sourceTree = "<group>"; };
+		8C3C5C6C19FF94900026AB73 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8C3C5C6D19FF94900026AB73 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		8C3C5C6F19FFAC690026AB73 /* UserSettingsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettingsObject.m; sourceTree = "<group>"; };
+		8C3C5C7119FFAC850026AB73 /* UserSettingsObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSettingsObject.h; sourceTree = "<group>"; };
 		8C41378219FCFBB6002C1702 /* AlarmMultiUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmMultiUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C41378619FCFBB6002C1702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C41378719FCFBB6002C1702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -163,6 +177,12 @@
 				8C4137C219FD175F002C1702 /* LoginViewController.m */,
 				8C4137C819FD229F002C1702 /* AlarmListTableViewController.h */,
 				8C4137C919FD229F002C1702 /* AlarmListTableViewController.m */,
+				8C24781B19FDC04700957796 /* RootTabBarController.h */,
+				8C24781C19FDC04700957796 /* RootTabBarController.m */,
+				8C3C5C6919FEB8D90026AB73 /* AddEditAlarmViewController.h */,
+				8C3C5C6A19FEB8D90026AB73 /* AddEditAlarmViewController.m */,
+				8C3C5C6C19FF94900026AB73 /* SettingsViewController.h */,
+				8C3C5C6D19FF94900026AB73 /* SettingsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -190,6 +210,8 @@
 			children = (
 				8C4137C519FD183C002C1702 /* AlarmObject.h */,
 				8C4137C619FD183C002C1702 /* AlarmObject.m */,
+				8C3C5C7119FFAC850026AB73 /* UserSettingsObject.h */,
+				8C3C5C6F19FFAC690026AB73 /* UserSettingsObject.m */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -197,6 +219,7 @@
 		8C4137FD19FD76E5002C1702 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				8C24781919FDB69B00957796 /* clock-7.png */,
 				8C4137FE19FD771B002C1702 /* clock-alarm-7.png */,
 				8C4137FF19FD771B002C1702 /* plus-simple-7.png */,
 				8C41380019FD771B002C1702 /* spanner-7.png */,
@@ -290,6 +313,7 @@
 				8C4137BA19FD0866002C1702 /* digital-7.ttf in Resources */,
 				8C4137C019FD093E002C1702 /* mario_alarm.m4r in Resources */,
 				8C41379319FCFBB6002C1702 /* Images.xcassets in Resources */,
+				8C24781A19FDB69B00957796 /* clock-7.png in Resources */,
 				8C4137BE19FD093E002C1702 /* Best_Morning_Alarm.m4r in Resources */,
 				8C41380119FD771B002C1702 /* clock-alarm-7.png in Resources */,
 				8C4137BF19FD093E002C1702 /* csi_alarm.m4r in Resources */,
@@ -311,12 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3C5C7019FFAC690026AB73 /* UserSettingsObject.m in Sources */,
 				8C4137CA19FD229F002C1702 /* AlarmListTableViewController.m in Sources */,
 				8C41378E19FCFBB6002C1702 /* ViewController.m in Sources */,
 				8C41378B19FCFBB6002C1702 /* AppDelegate.m in Sources */,
 				8C41378819FCFBB6002C1702 /* main.m in Sources */,
 				8C4137AE19FCFF6A002C1702 /* HomeViewController.m in Sources */,
+				8C24781D19FDC04700957796 /* RootTabBarController.m in Sources */,
 				8C4137C719FD183C002C1702 /* AlarmObject.m in Sources */,
+				8C3C5C6E19FF94900026AB73 /* SettingsViewController.m in Sources */,
+				8C3C5C6B19FEB8D90026AB73 /* AddEditAlarmViewController.m in Sources */,
 				8C4137C319FD175F002C1702 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +540,7 @@
 				8C4137A719FCFBB6002C1702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C4137A819FCFBB6002C1702 /* Build configuration list for PBXNativeTarget "AlarmMultiUserTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +549,7 @@
 				8C4137AA19FCFBB6002C1702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

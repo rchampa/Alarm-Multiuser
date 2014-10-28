@@ -10,4 +10,9 @@
 
 @interface AlarmListTableViewController : UITableViewController
 
+- (IBAction)handleSwipe:(UISwipeGestureRecognizer *)sender;
+
+
+@property (nonatomic, strong) NSMutableArray *list_of_user_alarms;
+@property (nonatomic, strong) NSMutableArray *list_of_all_alarms;
 @end
