@@ -19,19 +19,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXR-5a-JlU">
                                 <rect key="frame" x="281" y="200" width="38" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="39m-tL-vIC"/>
-                                    <constraint firstAttribute="height" constant="35" id="da3-UZ-iLD"/>
-                                </constraints>
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="39m-tL-vIC"/>
-                                        <exclude reference="da3-UZ-iLD"/>
-                                    </mask>
-                                </variation>
                                 <connections>
                                     <action selector="authenticate" destination="BYZ-38-t0r" eventType="touchUpInside" id="b5X-gB-2t0"/>
                                 </connections>
@@ -45,42 +35,22 @@
                                 <rect key="frame" x="160" y="84" width="280" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="m1k-bt-j4e" secondAttribute="height" multiplier="28:3" id="CpT-xz-gXj"/>
-                                    <constraint firstAttribute="width" constant="280" id="Lgh-Ud-qzZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Lgh-Ud-qzZ"/>
-                                    </mask>
-                                </variation>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="m1k-bt-j4e" secondAttribute="centerX" id="3C2-qf-bko"/>
-                            <constraint firstItem="EXR-5a-JlU" firstAttribute="top" secondItem="3tZ-B1-IWI" secondAttribute="top" constant="170" id="4NR-Hz-v49"/>
                             <constraint firstAttribute="centerX" secondItem="EXR-5a-JlU" secondAttribute="centerX" id="NOt-KO-zST"/>
-                            <constraint firstAttribute="centerY" secondItem="EXR-5a-JlU" secondAttribute="centerY" constant="82" id="O82-dX-zQk"/>
                             <constraint firstItem="EXR-5a-JlU" firstAttribute="top" secondItem="GQi-OY-Kx6" secondAttribute="bottom" constant="48" id="QSJ-9f-1XN"/>
                             <constraint firstAttribute="width" secondItem="EXR-5a-JlU" secondAttribute="height" multiplier="120:7" id="R0z-OI-Y8y"/>
                             <constraint firstItem="GQi-OY-Kx6" firstAttribute="top" secondItem="m1k-bt-j4e" secondAttribute="bottom" constant="8" symbolic="YES" id="Vld-YB-eGo"/>
                             <constraint firstItem="m1k-bt-j4e" firstAttribute="leading" secondItem="GQi-OY-Kx6" secondAttribute="leading" id="YFl-Xu-jsN"/>
                             <constraint firstItem="m1k-bt-j4e" firstAttribute="top" secondItem="3tZ-B1-IWI" secondAttribute="top" constant="84" id="azx-sX-hGJ"/>
                             <constraint firstItem="GQi-OY-Kx6" firstAttribute="trailing" secondItem="m1k-bt-j4e" secondAttribute="trailing" id="bL7-bW-hRp"/>
-                            <constraint firstAttribute="width" secondItem="m1k-bt-j4e" secondAttribute="height" multiplier="20:1" id="fCK-0a-Kf6"/>
-                            <constraint firstItem="EXR-5a-JlU" firstAttribute="centerX" secondItem="GQi-OY-Kx6" secondAttribute="centerX" id="rGs-l7-G6A"/>
-                            <constraint firstItem="EXR-5a-JlU" firstAttribute="leading" secondItem="3tZ-B1-IWI" secondAttribute="leading" constant="124" id="wyv-JG-dfr"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="fCK-0a-Kf6"/>
-                                <exclude reference="4NR-Hz-v49"/>
-                                <exclude reference="O82-dX-zQk"/>
-                                <exclude reference="rGs-l7-G6A"/>
-                                <exclude reference="wyv-JG-dfr"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="tf_password" destination="GQi-OY-Kx6" id="D5E-pk-83g"/>
@@ -185,12 +155,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydw-1E-NRN">
-                                <rect key="frame" x="266" y="283" width="52" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dD8-y4-UE1">
                                 <rect key="frame" x="275" y="487" width="49" height="30"/>
                                 <state key="normal" title="Logout">
@@ -205,14 +169,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="T0s-2U-sev" firstAttribute="top" secondItem="ydw-1E-NRN" secondAttribute="bottom" constant="5" id="3v1-ot-CFx"/>
                             <constraint firstItem="Gg5-gQ-lKP" firstAttribute="top" secondItem="4Md-Es-jN0" secondAttribute="bottom" constant="28" id="7zP-CA-IWN"/>
-                            <constraint firstItem="ydw-1E-NRN" firstAttribute="top" secondItem="Gg5-gQ-lKP" secondAttribute="bottom" constant="66" id="ENf-2T-5ge"/>
                             <constraint firstAttribute="centerX" secondItem="T0s-2U-sev" secondAttribute="centerX" id="ETY-0Y-C7X"/>
                             <constraint firstAttribute="centerX" secondItem="dD8-y4-UE1" secondAttribute="centerX" id="NKQ-zr-zEv"/>
                             <constraint firstAttribute="centerX" secondItem="Gg5-gQ-lKP" secondAttribute="centerX" id="Qrf-8u-jfT"/>
-                            <constraint firstItem="ydw-1E-NRN" firstAttribute="leading" secondItem="T0s-2U-sev" secondAttribute="leading" id="Waw-Qf-eS4"/>
                             <constraint firstItem="vxm-uz-855" firstAttribute="top" secondItem="dD8-y4-UE1" secondAttribute="bottom" constant="34" id="esd-PF-mIW"/>
+                            <constraint firstAttribute="centerY" secondItem="T0s-2U-sev" secondAttribute="centerY" constant="-18.25" id="g2F-Fb-bUM"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="6Ne-j0-9Yl" appends="YES" id="uto-x5-xDI"/>
@@ -318,14 +280,6 @@
                             </view>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CyF-yE-WS9">
                                 <rect key="frame" x="0.0" y="226" width="600" height="162"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="wm6-2e-9G3"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="wm6-2e-9G3"/>
-                                    </mask>
-                                </variation>
                             </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

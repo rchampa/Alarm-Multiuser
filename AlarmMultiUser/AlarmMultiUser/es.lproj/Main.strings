@@ -18,7 +18,7 @@
 "EVO-oP-Saq.text" = "Mostrar año";
 
 /* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "EXR-5a-JlU"; */
-"EXR-5a-JlU.normalTitle" = "Login";
+"EXR-5a-JlU.normalTitle" = "Conectar";
 
 /* Class = "IBUITextField"; placeholder = "password"; ObjectID = "GQi-OY-Kx6"; */
 "GQi-OY-Kx6.placeholder" = "contraseña";
@@ -39,7 +39,7 @@
 "bXH-UC-t53.title" = "Configuración";
 
 /* Class = "IBUIButton"; normalTitle = "Logout"; ObjectID = "dD8-y4-UE1"; */
-"dD8-y4-UE1.normalTitle" = "Logout";
+"dD8-y4-UE1.normalTitle" = "Desconectar";
 
 /* Class = "IBUILabel"; text = ":"; ObjectID = "iSz-as-RRq"; */
 "iSz-as-RRq.text" = ":";
