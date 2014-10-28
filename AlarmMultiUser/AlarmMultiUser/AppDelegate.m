@@ -11,10 +11,12 @@
 #import "LoginViewController.h"
 #import "UserSettingsObject.h"
 #import "RootTabBarController.h"
+#import <AudioToolbox/AudioServices.h>
 
 @interface AppDelegate ()
 {
     UIAlertView *alarmAlert;
+    UserSettingsObject *current_user_settings;
 }
 
 @end
@@ -24,16 +26,6 @@
 @synthesize player;
 
 
-/*
- - (void)applicationDidFinishLaunching:(UIApplication *)application {
-    
-    application.applicationSupportsShakeToEdit = YES;
-    
-    RootTabBarController* controller = (RootTabBarController *) self.window.rootViewController;
-    [self.window addSubview:controller.view];
-    [self.window makeKeyAndVisible];
-}
- */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
@@ -203,6 +195,23 @@
                                                cancelButtonTitle:@"okay"
                                                otherButtonTitles:nil, nil];
     [alarmAlert show];
+    
+    
+    NSString *current_user = [[NSUserDefaults standardUserDefaults] stringForKey:@"current_user"];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSData *userListData = [defaults objectForKey:@"UserListData"];
+    NSMutableArray *users_list = [NSKeyedUnarchiver unarchiveObjectWithData:userListData];
+    
+    for (UserSettingsObject *user in users_list) {
+        if([user.username isEqualToString:current_user]){
+            current_user_settings = user;
+            break;
+        }
+    }
+
+    //vibration...
+    if(current_user_settings.vibration)
+        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 }
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex

@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //tf_username.placeholder = NSLocalizedString(@"placeholder_username", nil);
 }
 
 - (void)didReceiveMemoryWarning {

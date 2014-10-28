@@ -12,6 +12,8 @@
 		8C3C5C6B19FEB8D90026AB73 /* AddEditAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C5C6A19FEB8D90026AB73 /* AddEditAlarmViewController.m */; };
 		8C3C5C6E19FF94900026AB73 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C5C6D19FF94900026AB73 /* SettingsViewController.m */; };
 		8C3C5C7019FFAC690026AB73 /* UserSettingsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C5C6F19FFAC690026AB73 /* UserSettingsObject.m */; };
+		8C3C5C7319FFE08B0026AB73 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3C5C7219FFE08B0026AB73 /* AudioToolbox.framework */; };
+		8C3C5C7519FFE75D0026AB73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C3C5C7419FFE75D0026AB73 /* Localizable.strings */; };
 		8C41378819FCFBB6002C1702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378719FCFBB6002C1702 /* main.m */; };
 		8C41378B19FCFBB6002C1702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378A19FCFBB6002C1702 /* AppDelegate.m */; };
 		8C41378E19FCFBB6002C1702 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378D19FCFBB6002C1702 /* ViewController.m */; };
@@ -53,6 +55,10 @@
 		8C3C5C6D19FF94900026AB73 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		8C3C5C6F19FFAC690026AB73 /* UserSettingsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettingsObject.m; sourceTree = "<group>"; };
 		8C3C5C7119FFAC850026AB73 /* UserSettingsObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSettingsObject.h; sourceTree = "<group>"; };
+		8C3C5C7219FFE08B0026AB73 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8C3C5C7419FFE75D0026AB73 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8C3C5C7619FFECBA0026AB73 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		8C3C5C7719FFECBA0026AB73 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8C41378219FCFBB6002C1702 /* AlarmMultiUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmMultiUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C41378619FCFBB6002C1702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C41378719FCFBB6002C1702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3C5C7319FFE08B0026AB73 /* AudioToolbox.framework in Frameworks */,
 				8C4137B019FCFFC9002C1702 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +113,7 @@
 		8C41377919FCFBB6002C1702 = {
 			isa = PBXGroup;
 			children = (
+				8C3C5C7219FFE08B0026AB73 /* AudioToolbox.framework */,
 				8C4137AF19FCFFC9002C1702 /* AVFoundation.framework */,
 				8C41378419FCFBB6002C1702 /* AlarmMultiUser */,
 				8C41379E19FCFBB6002C1702 /* AlarmMultiUserTests */,
@@ -135,6 +143,7 @@
 				8C41379219FCFBB6002C1702 /* Images.xcassets */,
 				8C41379419FCFBB6002C1702 /* LaunchScreen.xib */,
 				8C41378519FCFBB6002C1702 /* Supporting Files */,
+				8C3C5C7419FFE75D0026AB73 /* Localizable.strings */,
 			);
 			path = AlarmMultiUser;
 			sourceTree = "<group>";
@@ -308,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C41379119FCFBB6002C1702 /* Main.storyboard in Resources */,
+				8C3C5C7519FFE75D0026AB73 /* Localizable.strings in Resources */,
 				8C41379619FCFBB6002C1702 /* LaunchScreen.xib in Resources */,
 				8C41380219FD771B002C1702 /* plus-simple-7.png in Resources */,
 				8C4137BA19FD0866002C1702 /* digital-7.ttf in Resources */,
@@ -372,6 +382,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8C41379019FCFBB6002C1702 /* Base */,
+				8C3C5C7619FFECBA0026AB73 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -380,6 +391,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8C41379519FCFBB6002C1702 /* Base */,
+				8C3C5C7719FFECBA0026AB73 /* es */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

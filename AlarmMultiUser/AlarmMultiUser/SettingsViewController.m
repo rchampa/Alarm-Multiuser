@@ -39,6 +39,7 @@ BOOL static modifiedSettings;
     
     
     
+    
     NSString *current_user = [[NSUserDefaults standardUserDefaults] stringForKey:@"current_user"];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSData *userListData = [defaults objectForKey:@"UserListData"];

@@ -1,0 +1,72 @@
+
+/* Class = "IBUILabel"; text = "Show day of month"; ObjectID = "0W6-MR-weI"; */
+"0W6-MR-weI.text" = "Show day of month";
+
+/* Class = "IBUINavigationItem"; title = "Add new alarm"; ObjectID = "0lS-8m-Am4"; */
+"0lS-8m-Am4.title" = "Add new alarm";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "9I5-2P-fDJ"; */
+"9I5-2P-fDJ.text" = "0";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "AGm-cx-O02"; */
+"AGm-cx-O02.title" = "Settings";
+
+/* Class = "IBUILabel"; text = "Vibration"; ObjectID = "Ase-eW-aLg"; */
+"Ase-eW-aLg.text" = "Vibration";
+
+/* Class = "IBUILabel"; text = "Show year"; ObjectID = "EVO-oP-Saq"; */
+"EVO-oP-Saq.text" = "Show year";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "EXR-5a-JlU"; */
+"EXR-5a-JlU.normalTitle" = "Login";
+
+/* Class = "IBUITextField"; placeholder = "password"; ObjectID = "GQi-OY-Kx6"; */
+"GQi-OY-Kx6.placeholder" = "password";
+
+/* Class = "IBUIButton"; normalTitle = "Delete alarm"; ObjectID = "I3r-C3-OyE"; */
+"I3r-C3-OyE.normalTitle" = "Delete alarm";
+
+/* Class = "IBUILabel"; text = "mm yyyy"; ObjectID = "T0s-2U-sev"; */
+"T0s-2U-sev.text" = "mm yyyy";
+
+/* Class = "IBUINavigationItem"; title = "Alarms"; ObjectID = "UeC-o3-g99"; */
+"UeC-o3-g99.title" = "Alarms";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "aQ2-bZ-8TZ"; */
+"aQ2-bZ-8TZ.text" = "0";
+
+/* Class = "IBUITabBarItem"; title = "Settings"; ObjectID = "bXH-UC-t53"; */
+"bXH-UC-t53.title" = "Settings";
+
+/* Class = "IBUIButton"; normalTitle = "Logout"; ObjectID = "dD8-y4-UE1"; */
+"dD8-y4-UE1.normalTitle" = "Logout";
+
+/* Class = "IBUILabel"; text = ":"; ObjectID = "iSz-as-RRq"; */
+"iSz-as-RRq.text" = ":";
+
+/* Class = "IBUITabBarItem"; title = "Clock"; ObjectID = "iTx-C0-4zS"; */
+"iTx-C0-4zS.title" = "Clock";
+
+/* Class = "IBUILabel"; text = "Show day of weak"; ObjectID = "kP2-59-tCM"; */
+"kP2-59-tCM.text" = "Show day of weak";
+
+/* Class = "IBUILabel"; text = "Show month"; ObjectID = "lXa-Db-PeZ"; */
+"lXa-Db-PeZ.text" = "Show month";
+
+/* Class = "IBUITextField"; placeholder = "username"; ObjectID = "m1k-bt-j4e"; */
+"m1k-bt-j4e.placeholder" = "username";
+
+/* Class = "IBUITextField"; placeholder = "Alarm name"; ObjectID = "phc-mK-PzV"; */
+"phc-mK-PzV.placeholder" = "Alarm name";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "rBA-AF-fph"; */
+"rBA-AF-fph.text" = "0";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "t2r-Wc-7In"; */
+"t2r-Wc-7In.text" = "0";
+
+/* Class = "IBUITabBarItem"; title = "Alarms"; ObjectID = "t4t-Rl-IRF"; */
+"t4t-Rl-IRF.title" = "Alarms";
+
+/* Class = "IBUILabel"; text = "Fecha:"; ObjectID = "ydw-1E-NRN"; */
+"ydw-1E-NRN.text" = "Fecha:";
