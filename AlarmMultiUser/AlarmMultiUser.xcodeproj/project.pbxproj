@@ -14,6 +14,7 @@
 		8C3C5C7019FFAC690026AB73 /* UserSettingsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C5C6F19FFAC690026AB73 /* UserSettingsObject.m */; };
 		8C3C5C7319FFE08B0026AB73 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3C5C7219FFE08B0026AB73 /* AudioToolbox.framework */; };
 		8C3C5C7519FFE75D0026AB73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C3C5C7419FFE75D0026AB73 /* Localizable.strings */; };
+		8C3C5C7C1A00332B0026AB73 /* MiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C5C7B1A00332B0026AB73 /* MiViewController.m */; };
 		8C41378819FCFBB6002C1702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378719FCFBB6002C1702 /* main.m */; };
 		8C41378B19FCFBB6002C1702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378A19FCFBB6002C1702 /* AppDelegate.m */; };
 		8C41378E19FCFBB6002C1702 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41378D19FCFBB6002C1702 /* ViewController.m */; };
@@ -59,6 +60,8 @@
 		8C3C5C7419FFE75D0026AB73 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		8C3C5C7619FFECBA0026AB73 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		8C3C5C7719FFECBA0026AB73 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8C3C5C7A1A00332B0026AB73 /* MiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiViewController.h; sourceTree = "<group>"; };
+		8C3C5C7B1A00332B0026AB73 /* MiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiViewController.m; sourceTree = "<group>"; };
 		8C41378219FCFBB6002C1702 /* AlarmMultiUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmMultiUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C41378619FCFBB6002C1702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C41378719FCFBB6002C1702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				8C3C5C6A19FEB8D90026AB73 /* AddEditAlarmViewController.m */,
 				8C3C5C6C19FF94900026AB73 /* SettingsViewController.h */,
 				8C3C5C6D19FF94900026AB73 /* SettingsViewController.m */,
+				8C3C5C7A1A00332B0026AB73 /* MiViewController.h */,
+				8C3C5C7B1A00332B0026AB73 /* MiViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				8C41378B19FCFBB6002C1702 /* AppDelegate.m in Sources */,
 				8C41378819FCFBB6002C1702 /* main.m in Sources */,
 				8C4137AE19FCFF6A002C1702 /* HomeViewController.m in Sources */,
+				8C3C5C7C1A00332B0026AB73 /* MiViewController.m in Sources */,
 				8C24781D19FDC04700957796 /* RootTabBarController.m in Sources */,
 				8C4137C719FD183C002C1702 /* AlarmObject.m in Sources */,
 				8C3C5C6E19FF94900026AB73 /* SettingsViewController.m in Sources */,

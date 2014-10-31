@@ -145,13 +145,13 @@ BOOL static modifiedSettings;
     if(gestureRecognizer.direction==UISwipeGestureRecognizerDirectionRight){
         NSLog(@"right");
         NSUInteger index = [self.tabBarController selectedIndex];
-        [self.tabBarController setSelectedIndex:index+1];
+        [self.tabBarController setSelectedIndex:index-1];
         
     }
     else if(gestureRecognizer.direction==UISwipeGestureRecognizerDirectionLeft){
         NSLog(@"left");
         NSUInteger index = [self.tabBarController selectedIndex];
-        [self.tabBarController setSelectedIndex:index-1];
+        [self.tabBarController setSelectedIndex:index+1];
     }
     
 }

@@ -91,13 +91,28 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    //This is what sets the custom font
-    //See -http://stackoverflow.com/questions/360751/can-i-embed-a-custom-font-in-an-iphone-application
-    colonLabel.font = [UIFont fontWithName:@"digital-7" size:90];
-    hour1Label.font = [UIFont fontWithName:@"digital-7" size:90];
-    minute1Label.font = [UIFont fontWithName:@"digital-7" size:90];
-    hour2Label.font = [UIFont fontWithName:@"digital-7" size:90];
-    minute2Label.font = [UIFont fontWithName:@"digital-7" size:90];
+    
+    //size font for iPAD
+    
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+    {
+        
+        [monthYearLabel setFont:[UIFont systemFontOfSize:40]];
+        colonLabel.font = [UIFont fontWithName:@"digital-7" size:115];
+        hour1Label.font = [UIFont fontWithName:@"digital-7" size:115];
+        minute1Label.font = [UIFont fontWithName:@"digital-7" size:115];
+        hour2Label.font = [UIFont fontWithName:@"digital-7" size:115];
+        minute2Label.font = [UIFont fontWithName:@"digital-7" size:115];
+    }
+    else{
+        //This is what sets the custom font
+        //See -http://stackoverflow.com/questions/360751/can-i-embed-a-custom-font-in-an-iphone-application
+        colonLabel.font = [UIFont fontWithName:@"digital-7" size:90];
+        hour1Label.font = [UIFont fontWithName:@"digital-7" size:90];
+        minute1Label.font = [UIFont fontWithName:@"digital-7" size:90];
+        hour2Label.font = [UIFont fontWithName:@"digital-7" size:90];
+        minute2Label.font = [UIFont fontWithName:@"digital-7" size:90];
+    }
     
 }
 
@@ -154,14 +169,13 @@
         }
         NSLog(@"%@",formatter);
         [dateFormatter setDateFormat:formatter];
+        
         NSString *mesAno = [dateFormatter stringFromDate:date];
         
         monthYearLabel.text = mesAno;
-
+         
     }
-     
-    
-    
+         
 }
 
 //This updates the clock labels
@@ -202,13 +216,13 @@
     if(gestureRecognizer.direction==UISwipeGestureRecognizerDirectionRight){
         NSLog(@"right");
         NSUInteger index = [self.tabBarController selectedIndex];
-        [self.tabBarController setSelectedIndex:index+1];
+        [self.tabBarController setSelectedIndex:index-1];
 
     }
     else if(gestureRecognizer.direction==UISwipeGestureRecognizerDirectionLeft){
         NSLog(@"left");
         NSUInteger index = [self.tabBarController selectedIndex];
-        [self.tabBarController setSelectedIndex:index-1];
+        [self.tabBarController setSelectedIndex:index+1];
     }
     
 }
